@@ -1,5 +1,6 @@
 from datetime import datetime
 
+
 class person: 
     def __init__(self, first_name, last_name):
         self.first_name = first_name 
@@ -57,7 +58,7 @@ class Experiment:
 
 
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
     subject1 = Subject("Liliana", "Escobar", "w", "31.03.2004")
     supervisor1 = Supervisor("Frau", "Kaiser")
     experiment1 = Experiment("Belastungstest", "10.04.2025")
